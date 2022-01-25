@@ -59,7 +59,7 @@ function Titulo(props) {
 export default HomePage;*/
 
 export default function PaginaInicial() {
-    const username = 'peas';
+    const username = 'JonatanMK';
   
     return (
       <>
@@ -67,8 +67,8 @@ export default function PaginaInicial() {
         <Box
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            backgroundColor: appConfig.theme.colors.primary[500],
-            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+            //backgroundColor: appConfig.theme.colors.primary[500],
+            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/07/blue-screen-of-death-in-windows-10-1536x864.jpg)',
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
