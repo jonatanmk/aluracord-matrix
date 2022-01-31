@@ -28,6 +28,13 @@ export default function MyApp({ Component, pageProps }) {
               flex: 1;
             }
             /* ./App fit Height */
+
+            *{
+                -ms-overflow-style: none;
+              }
+              ::-webkit-scrollbar {
+                display: none;
+              }
           `}</style>
         );
     }
